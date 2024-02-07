@@ -1,0 +1,255 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+#grad1 {
+  height: 750px;
+  background-color: green; 
+  background-image: linear-gradient(to right, lime, #00ff7b, #aeff00, green, #00a849, #408000, #99ff00);
+}
+
+.nav {
+  background-color: #2d7000;
+  overflow: hidden;
+  position: absolute;
+  right: 380px;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  color: #00ffd5;
+  text-align: center;
+  padding: 17px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: monospace;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #00ffd5;
+  color: #2d7000;
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+  background-color: #015106;
+  color: #00ffd5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.topic-1 {
+  font-family: Georgia, serif;
+  font-size: x-large;
+  font-weight:bolder;
+  position: absolute;
+  left: 52px;
+  top: 20%;
+  background: -webkit-linear-gradient(rgb(0, 98, 255), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.pg1-p1 {
+  color: #4c00ff;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size: larger;
+  position: absolute;
+  left: 66px;
+  top: 24%;
+}
+
+.topic-2 {
+  font-family: Georgia, serif;
+  font-size: x-large;
+  font-weight:bolder;
+  position: absolute;
+  left: 30px;
+  top: 39%;
+  background: -webkit-linear-gradient(rgb(199, 0, 50), rgb(242, 74, 147));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.pg1-p2 {
+  color: #ff007b;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size: larger;
+  position: absolute;
+  left: 76px;
+  top: 43%;
+}
+
+.topic-3 {
+  font-family: Georgia, serif;
+  font-size: x-large;
+  font-weight: bolder;
+  position: absolute;
+  left: 55px;
+  top: 58%;
+  background: -webkit-linear-gradient(rgb(255, 174, 0), rgb(255, 89, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.pg1-p3 {
+  color: #ff4d00;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size: larger;
+  position: absolute;
+  left: 68px;
+  top: 62%;
+}
+
+.image-1 {
+  position: absolute;
+  left:145%;
+  top: -130%;
+  background-image: url("https://www.freshclean.ie/wp-content/uploads/2017/07/eco-green-cleaning11-800x267.jpg");
+  border-radius: 40px;
+  border:5px solid #00ff40;
+  padding: 26%;
+  width: 300px;
+  height:10px;
+  box-shadow: 10px 10px 5px 5px #00ffb3;
+}
+
+#grad2 {
+  height: 750px;
+  background-color: #ae00ff; 
+  background-image: linear-gradient(to right, #d600ff, #ae00ff, #9a00ff, #8000ff, #6600ff);
+}
+
+h1 {
+  color:violet;
+  position: absolute;
+  top: 1%;
+  right:48%;
+  font-size: 90px;
+  font-weight: bolder;
+  font-family: Georgia, serif;
+}
+
+#SH-1 {
+  color: #fd8bd9;
+  position: absolute;
+  top: 15%;
+  left:3%;
+  font-weight: bolder;
+  font-size: 35px;
+  font-family: Didot, serif;
+  text-decoration: underline;
+}
+
+.List-1 {
+  color:#fd8bd9;
+  position: absolute;
+  top: 22%;
+  left: 7%;
+  font-size: 33px;
+  font-family: Didot, serif;
+}
+
+#SH-2 {
+  color: #fd8bd9;
+  position: absolute;
+  top: 40%;
+  left:3%;
+  font-weight: bolder;
+  font-size: 35px;
+  font-family: Didot, serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.List-2 {
+  color:#fd8bd9;
+  position: absolute;
+  top: 52%;
+  left: 6%;
+  font-size: 35px;
+  font-family: Didot, serif;
+}
+
+.pg2-p1 {
+  color:#fd8bd9;
+  position: absolute;
+  top:67%;
+  left:2%;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: Didot, serif;
+  text-align: center;
+}
+
+.SH-3 {
+  color: #fd8bd9;
+  position: absolute;
+  top: 3%;
+  right: 4%;
+  font-weight: bolder;
+  font-size: 35px;
+  font-family: Didot, serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.pg2-p2 {
+  color: #fd8bd9;
+  position: absolute;
+  top: 9%;
+  right: 5%;
+  font-size: 30px;
+  font-family: Didot, serif;
+  text-align: center;
+}
+
+.pg2-p3 {
+  color:#fd8bd9;
+  position: absolute;
+  top: 22%;
+  right: 2%;
+  font-size: 29px;
+  font-family: Didot, serif;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  background-color: #e100ff;
+  padding: 4px;
+  position: absolute;
+  top: 43%;
+  right: 7%;
+  width: 20%;
+  height: 49%;
+}
+.grid-item {
+  background-color: rgba(206, 184, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 9px;
+  color:#3900a3;
+  font-size: 15px;
+  font-family: fantasy;
+  text-align: center;
+}
+
