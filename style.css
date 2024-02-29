@@ -10,125 +10,26 @@ html {
   background-image: linear-gradient(to right, lime, #00ff7b, #aeff00, green, #00a849, #408000, #99ff00);
 }
 
-.nav {
-  background-color: #2d7000;
-  overflow: hidden;
-  position: absolute;
-  right: 380px;
-}
-
-/* Style the links inside the navigation bar */
-.nav a {
-  float: left;
-  color: #00ffd5;
-  text-align: left;
-  padding: 17px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: monospace;
-}
-
-/* Change the color of links on hover */
-.nav a:hover {
-  background-color: #00ffd5;
-  color: #2d7000;
-}
-
-/* Add a color to the active/current link */
-.nav a.active {
-  background-color: #015106;
-  color: #00ffd5;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.topic-1 {
-  font-family: Georgia, serif;
-  font-size: x-large;
-  font-weight:bolder;
-  position: absolute;
-  left: 52px;
-  top: 20%;
-  background: -webkit-linear-gradient(rgb(0, 98, 255), rgb(255, 0, 234));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-
-.pg1-p1 {
-  color: #4c00ff;
-  font-weight: bold;
-  font-family: Georgia, serif;
-  text-align: center;
-  font-size: larger;
-  position: absolute;
-  left: 66px;
-  top: 24%;
-}
-
-.topic-2 {
-  font-family: Georgia, serif;
-  font-size: x-large;
-  font-weight:bolder;
-  position: absolute;
-  left: 30px;
-  top: 39%;
-  background: -webkit-linear-gradient(rgb(199, 0, 50), rgb(242, 74, 147));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.pg1-p2 {
+.home-header {
   color: #ff007b;
   font-weight: bold;
   font-family: Georgia, serif;
   text-align: center;
-  font-size: larger;
-  position: absolute;
-  left: 76px;
-  top: 43%;
+  font-size: 15px;
+  padding-top: 30px;
 }
 
-.topic-3 {
-  font-family: Georgia, serif;
-  font-size: x-large;
-  font-weight: bolder;
-  position: absolute;
-  left: 55px;
-  top: 58%;
-  background: -webkit-linear-gradient(rgb(255, 174, 0), rgb(255, 89, 0));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.pg1-p3 {
-  color: #ff4d00;
+.home-paragraph{
+  color: #ff007b;
   font-weight: bold;
   font-family: Georgia, serif;
   text-align: center;
-  font-size: larger;
-  position: absolute;
-  left: 68px;
-  top: 62%;
+  font-size: 15px;
+  padding-top: 1px;
 }
 
-.image-1 {
-  position: absolute;
-  left:145%;
-  top: -130%;
-  background-image: url("https://www.freshclean.ie/wp-content/uploads/2017/07/eco-green-cleaning11-800x267.jpg");
-  border-radius: 40px;
-  border:5px solid #00ff40;
-  padding: 26%;
-  width: 300px;
-  height:10px;
-  box-shadow: 10px 10px 5px 5px #00ffb3;
+img {
+  padding-bottom: 
 }
 
 #grad2 {
@@ -137,12 +38,12 @@ html {
   background-image: linear-gradient(to right, #d600ff, #ae00ff, #9a00ff, #8000ff, #6600ff);
 }
 
-h1 {
+.cost {
   color:violet;
   position: absolute;
-  top: 1%;
-  right:48%;
-  font-size: 90px;
+  top:60px;
+  right:42%;
+  font-size: 80px;
   font-weight: bolder;
   font-family: Georgia, serif;
 }
@@ -150,10 +51,10 @@ h1 {
 #SH-1 {
   color: #fd8bd9;
   position: absolute;
-  top: 15%;
-  left:3%;
+  top: 10%;
+  left:7%;
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 30px;
   font-family: Didot, serif;
   text-decoration: underline;
 }
@@ -161,19 +62,19 @@ h1 {
 .List-1 {
   color:#fd8bd9;
   position: absolute;
-  top: 22%;
-  left: 7%;
-  font-size: 33px;
+  top: 17%;
+  left: 9%;
+  font-size: 25px;
   font-family: Didot, serif;
 }
 
 #SH-2 {
   color: #fd8bd9;
   position: absolute;
-  top: 40%;
-  left:3%;
+  top: 36%;
+  left:7%;
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 30px;
   font-family: Didot, serif;
   text-decoration: underline;
   text-align: center;
@@ -182,19 +83,19 @@ h1 {
 .List-2 {
   color:#fd8bd9;
   position: absolute;
-  top: 52%;
-  left: 6%;
-  font-size: 35px;
+  top: 51%;
+  left: 8%;
+  font-size: 30px;
   font-family: Didot, serif;
 }
 
 .pg2-p1 {
   color:#fd8bd9;
   position: absolute;
-  top:67%;
-  left:2%;
+  top:66%;
+  left:8%;
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 33px;
   font-family: Didot, serif;
   text-align: center;
 }
@@ -202,10 +103,10 @@ h1 {
 .SH-3 {
   color: #fd8bd9;
   position: absolute;
-  top: 3%;
+  top: 20%;
   right: 4%;
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 30px;
   font-family: Didot, serif;
   text-align: center;
   text-decoration: underline;
@@ -214,9 +115,9 @@ h1 {
 .pg2-p2 {
   color: #fd8bd9;
   position: absolute;
-  top: 9%;
+  top: 29%;
   right: 5%;
-  font-size: 30px;
+  font-size: 25px;
   font-family: Didot, serif;
   text-align: center;
 }
@@ -224,9 +125,9 @@ h1 {
 .pg2-p3 {
   color:#fd8bd9;
   position: absolute;
-  top: 22%;
+  top: 42%;
   right: 2%;
-  font-size: 29px;
+  font-size: 25px;
   font-family: Didot, serif;
   text-align: center;
 }
@@ -235,21 +136,155 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   background-color: #e100ff;
-  padding: 4px;
+  padding: 9px;
   position: absolute;
-  top: 43%;
-  right: 7%;
-  width: 20%;
+  top: 40%;
+  right: 38%;
+  width: 18%;
   height: 49%;
 }
 .grid-item {
   background-color: rgba(206, 184, 255, 0.8);
   border: 2px solid rgba(0, 0, 0, 0.8);
   border-radius: 5px;
-  padding: 9px;
+  padding: 5px;
   color:#3900a3;
-  font-size: 15px;
+  font-size: 12px;
   font-family: fantasy;
   text-align: center;
 }
+
+#grad3 {  
+  height: 750px;
+  background-color:#19B2FF; 
+  background-image: linear-gradient(to right, #0026E6, #19B2FF, #19D9FF, #4019FF, #00FFFF);
+}
+
+h1{
+  position: absolute;
+  top: 10%;
+  right:32%;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: Georgia, serif;
+  text-decoration: underline;
+}
+
+.title-1 {
+  color: #00228a;
+  position: absolute;
+  top: 16%;
+  right: 69%;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: Didot, serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.pg3-p1 {
+  color:#00228a;
+  position: absolute;
+  top: 23%;
+  right: 65%;
+  font-size: 13px;
+  font-family: Didot, serif;
+  text-align: center;
+  font-weight:bolder;
+}
+
+.title-2 {
+  color: #00228a;
+  position: absolute;
+  top: 54%;
+  right: 39%;
+  font-weight: bolder;
+  font-size: 21px;
+  font-family: Didot, serif;
+  text-align: center;
+  text-decoration: underline;
+}
+.pg3-p2 {
+  color:#00228a;
+  position: absolute;
+  top: 60%;
+  left:23%;
+  font-size: 17px;
+  font-family: Didot, serif;
+  text-align: center;
+  font-weight:bolder;
+}
+
+.image-2 {
+  position: absolute;
+  left:70%;
+  top: 13%;
+  background-image: url("https://www.cooperative-individualism.org/tax-burden.gif");
+  border-radius: 5px;
+  border:2px solid #00ff40;
+  padding: 12%;
+  width: 30px;
+  height:60px;
+  box-shadow: 10px 10px 5px 5px #00ffb3;
+}
+
+#grad4 {
+  height: 750px;
+  background-color:#FFFF33; 
+  background-image: linear-gradient(to right,#B3B300, #FFFF33, #FFFF4D, #FFFF99, #808000);
+}
+
+h2 {
+  color:#000000;
+  position: absolute;
+  top: 15%;
+  right:40%;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: Georgia, serif;
+  text-decoration: underline;
+}
+
+.items {
+  color:#000000;
+  position: absolute;
+  top: 22%;
+  left: 27%;
+  font-size: 13px;
+  font-family: Didot, serif;
+  text-align: center;
+}
+
+#grad5 {
+  height: 750px;
+  background-color:#FFB366; 
+  background-image: linear-gradient(to right,#FF8C19, #FFB366, #FF3355, #FF4D6A, #E6004C);
+}
+
+.title-3{
+  color: black;
+  position: absolute;
+  top:10%;
+  left: 40%;
+  font-weight: bolder;
+  font-size: 80px;
+  font-family: Didot, serif;
+  text-align: center;  
+  text-decoration: underline;
+}
+
+.sources{
+  color:black;
+  position: absolute;
+  top:90%;
+  left: -65px;
+  font-weight: bolder;
+  font-size: 70px;
+  font-family: Didot, serif;
+  text-align: center;  
+}
+
+
+
+
 
