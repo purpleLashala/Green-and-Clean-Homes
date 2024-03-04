@@ -264,10 +264,10 @@ h2 {
 .title-3{
   color: black;
   position: absolute;
-  top:10%;
-  left: 40%;
+  top:8%;
+  left: 43%;
   font-weight: bolder;
-  font-size: 80px;
+  font-size: 60px;
   font-family: Didot, serif;
   text-align: center;  
   text-decoration: underline;
@@ -276,10 +276,10 @@ h2 {
 .sources{
   color:black;
   position: absolute;
-  top:90%;
-  left: -65px;
+  top:80%;
+  left:-25px;
   font-weight: bolder;
-  font-size: 70px;
+  font-size: 32px;
   font-family: Didot, serif;
   text-align: center;  
 }
